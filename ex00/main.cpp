@@ -6,14 +6,14 @@
 /*   By: rilliano <rilliano@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/14 18:46:37 by rilliano          #+#    #+#             */
-/*   Updated: 2024/12/14 18:46:38 by rilliano         ###   ########.fr       */
+/*   Updated: 2024/12/14 18:56:17 by rilliano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 int main() {
-    ClapTrap claptrap("CL4P-TP");
+    ClapTrap claptrap("Pino");
 
     claptrap.attack("target1");
     claptrap.takeDamage(5);
