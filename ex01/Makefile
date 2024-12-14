@@ -8,8 +8,6 @@ NAME = scavtrap
 
 all: $(NAME)
 
-all: $(NAME)
-
 $(NAME): $(OBJ)
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
