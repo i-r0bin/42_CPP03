@@ -6,7 +6,7 @@
 /*   By: rilliano <rilliano@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/14 19:40:23 by rilliano          #+#    #+#             */
-/*   Updated: 2024/12/15 20:23:44 by rilliano         ###   ########.fr       */
+/*   Updated: 2024/12/15 20:23:32 by rilliano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "ClapTrap.hpp"
 
-class FragTrap : public ClapTrap {
+class FragTrap : virtual public ClapTrap {
     public:
         FragTrap();
         FragTrap(const std::string& name);
